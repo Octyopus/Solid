@@ -1,0 +1,146 @@
+/*
+ * Solid.CSS | A responcive and lightweight framework.
+ * https://octyopus.github.io/Solid/
+ */
+ 
+ .solid-button {
+    background-color: #e7e7e7;
+    border: none;
+    color: #000;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.solid-button:hover {
+    border-radius: 12px;
+}
+
+.solid-button-outline {
+    background-color: transparent; 
+    border: 2px solid #333;
+}
+.solid-button-outline:hover {
+    background-color: transparent; 
+    border: 1px solid #333;
+}
+.solid-button-disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    border-radius: 4px;
+}
+.solid-button-disabled:hover {
+    opacity: 0.6;
+    cursor: not-allowed;
+    border-radius: 4px;
+}
+.solid-button-small {
+    padding: 6px 16px;
+    font-size: 10px;
+}
+.solid-button-medium {
+    padding: 10px 25px;
+    font-size: 16px;
+}
+.solid-button-large {
+    padding: 15px 34px;
+    font-size: 20px;
+}
+.solid-button-grouped {
+    float: left;
+    border-radius: 0px;
+    margin-left: -4px;
+}
+.solid-button-grouped:hover {
+    float: left;
+    border-radius: 7px;
+    margin-left: -4px;
+}
+
+
+
+.solid-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.solid-nav li {
+    float: left;
+}
+.solid-nav li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.solid-nav li a:hover:not(.solid-nav-selected) {
+    background-color: #ddd;
+}
+.solid-nav li a:hover:not(.solid-nav-disabled) {
+    background-color: #ddd;
+}
+.solid-nav  a.solid-nav-selected {
+    color: white;
+    background-color: #333;
+}
+.solid-nav  a.solid-nav-disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.solid-nav-transparent {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0px solid #fff;
+    background-color: transparent;
+    
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.solid-nav-transparent li {
+    float: left;
+}
+.solid-nav-transparent li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.solid-nav-transparent li a:hover:not(.solid-nav-selected-t) {
+    background-color: #ddd;
+}
+.solid-nav-transparent li a:hover:not(.solid-nav-disabled-t) {
+    background-color: #ddd;
+}
+.solid-nav-transparent  a.solid-nav-selected-t {
+    background-color: #333;
+    color: #fff;
+    opacity: 0.7;
+}
+.solid-nav-transparent  a.solid-nav-disabled-t {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

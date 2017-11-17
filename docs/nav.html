@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="../solid.css" rel="stylesheet">
+    <title>Navigation - Solid Documentation</title>
+    
+</head>
+<body>
+
+    <p style="text-align: center; color: red;">NOTE: Solid's site will be redesigned soon. This is just  a temporary (and quickly thrown together) site.</p>
+    <hr/>
+    <a href="/">Home</a>&nbsp;|&nbsp;<a href="/docs/index.html">Documentation</a>&nbsp;|&nbsp;<a href="https://github.com/Octyopus/Solid/">GitHub</a>
+    
+    <h1>Navigation</h1>
+    <p>A light-themed navigation bar that normally goes on the top of a web page.</p>
+    <div style="max-width: 500px;">
+        <ul class="solid-nav">
+            <li><a class="solid-nav-selected" href="#">Selected</a></li>
+            <li><a href="#">Normal</a></li>
+            <li><a class="solid-nav-disabled" href="#">Disabled</a></li>
+        </ul>
+    </div>
+    <pre class="code" data-language="html"><code>
+    
+    &lt;ul class="solid-nav">
+    &nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a class="solid-nav-selected" href="#"&gt;Selected&lt;/a&gt;&lt;/li&gt;
+    &nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="#"&gt;Normal&lt;/a&gt;&lt;/li&gt;
+    &nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a class="solid-nav-disabled" href="#"&gt;Disabled&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    
+    </code></pre>
+    
+    <h2>Transparent</h2>
+    <p>You can have a transparent navigation bar. Helpful for image backgrounds or headers.</p>
+    <div style="max-width: 500px; background-image: url(../example-img.jpeg); background-size: cover; background-position: left center;"><br>
+        <ul class="solid-nav solid-nav-transparent">
+            <li><a class="solid-nav-selected-t" href="#">Selected</a></li>
+            <li><a href="#">Normal</a></li>
+            <li><a class="solid-nav-disabled-t" href="#">Disabled</a></li>
+        </ul>
+    <br></div>
+    
+</body>
+</html>
